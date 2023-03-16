@@ -1,0 +1,62 @@
+
+.container{
+  background-color: white;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  border-top: 1px solid #eee;
+}
+.upload-img-container{
+  display: flex;
+  margin-top: 176px;
+}
+.upload-img-view{
+  margin: auto;
+
+}
+.upload-img-wrap{
+  display: flex;
+  width: 260px;
+  height: 316px;
+  background: #FBFBFB;
+  margin-bottom: 28px;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #DEDEDE;
+}
+.upload-img{
+  margin-top: 52px;
+  width: 90px;
+  height: 118px;
+}
+.footer{
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.btn-submit-view{
+  height: 96rpx;
+  display: flex;
+  background: #3299FF;
+}
+.btn-submit-text{
+  font-size: 32px;
+  color: #FFFFFF;
+  margin: auto;
+}
+.upload-text{
+  margin-top: 24px;
+  font-family: PingFangSC-Regular;
+  font-size: 28px;
+  color: #666666;
+}
+.upload-wrap{
+  display: flex;
+}
+.upload-desc{
+  margin: auto;
+  font-family: PingFangSC-Regular;
+  font-size: 28px;
+  color: #666666
+}

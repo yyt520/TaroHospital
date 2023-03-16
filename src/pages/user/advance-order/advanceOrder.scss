@@ -1,0 +1,142 @@
+.container{
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  background-color: #f5f6f9;
+  height: 100%;
+  position: relative;
+  border-top: 1px solid #eee;
+
+}
+.wrap{
+  display: flex;
+  flex-direction: column;
+  padding-top: 10PX;
+}
+.foot{
+  display: flex;
+  flex-direction: row;
+  height: 90px;
+  background: #fff;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 40px;
+}
+.listItem{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom-width: 0.5px;
+  border-bottom-style: solid;
+  border-bottom-color:#eeee;
+  height:68PX ;
+  padding-left: 20PX;
+  padding-right:20PX;
+  background-color: #fff;
+  align-items: center;
+  &_left{
+    display: flex;
+    flex-direction: column;
+    listItem_left_appoint
+    &_appoint{
+      font-size: 32px;
+      font-family: PingFangSC-Regular;
+
+      color: #333333;
+    }
+    &_date{
+      margin-top: 20px;
+      font-size: 28px;
+      color: #666666;
+    }
+
+  }
+  &_right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &_status{
+      font-size: 28px;
+      font-family: PingFangSC-Regular;
+      color: #999999;
+      margin-right: 6PX;
+    }
+
+    &_arrow{
+      width: 7PX;
+      height:13.2PX;
+    }
+  }
+}
+@mixin btnStyle{
+  width: 144px;
+  height: 52px;
+  display: flex;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dddddd;
+  border-radius: 30px;
+  font-size: 26px;
+  font-family: PingFangSC-Regular;
+  color: #333333;
+}
+.op_btn_1{
+  @include btnStyle();
+}
+.op_btn_2{
+  @include btnStyle();
+  margin-left: 20px;
+}
+.empty-view{
+  display: flex;
+  flex:1;
+  margin-top: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.empty-wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.empty-text{
+  margin-top: 20px;
+  color: #999;
+  font-size: 28px;
+}
+.empty-img{
+  width: 234px;
+  height: 188px;
+
+}
+//.main{
+//  display: flex;
+//  flex-direction: column;
+//  flex:1;
+//}
+.modal-view{
+  height: 80PX;
+  width: 280PX;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+.modal-text{
+  font-family: PingFangSC-Medium;
+  font-size: 17PX;
+  color: #191F25;
+}
+
+.btn{
+  border-right: 1px solid #EEE;
+}
+::-webkit-scrollbar {
+  display: none;
+  width: 0 !important;
+  height: 0 !important;
+  background: transparent !important;
+}

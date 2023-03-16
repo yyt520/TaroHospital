@@ -1,0 +1,85 @@
+.container{
+  height:100%;
+  background: #fff;
+}
+.hospital{
+  margin-top: 20rpx;
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30PX;
+}
+.login-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hospital-img{
+  width: 72PX;
+  height: 72PX;
+}
+.main{
+  padding-top: 92rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.auth{
+  font-size: 32px;
+  color: #333333;
+}
+.info{
+  font-size: 28px;
+  color: #999999;
+
+}
+.wx-login-btn{
+  margin-top: 50rpx;
+  background: #00B100;
+  width: 640rpx;
+  height:88rpx;
+  text-align: center;
+  color:#fff;
+  border-radius: 10PX;
+}
+._container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wrap{
+  width: 640rpx;
+  margin-top: 26rpx;
+  //height: 88rpx;
+  text-align: left;
+}
+.wrap_line{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.line{
+  height:0;
+  width: 640rpx;
+  border-bottom: 1px solid #eee;
+  transform: scaleY(0.5);
+}
+.modal-view{
+  height: 80PX;
+  width: 280PX;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+.modal-text{
+  //margin-top: 30PX;
+  font-family: PingFangSC-Medium;
+  font-size: 17PX;
+  color: #191F25;
+}
+.confirm-btn{
+  color:'#06B48D'
+}

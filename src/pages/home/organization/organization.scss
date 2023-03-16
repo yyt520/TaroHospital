@@ -1,0 +1,129 @@
+
+.container{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  background-color: #F5F6F9;
+  border-top: 1px solid #eee;
+
+}
+.search-img{
+  margin-right:9.2PX ;
+}
+.city-text{
+  font-size: 15PX;
+  color: #333333;
+  margin-right: 8PX;
+}
+.search-view{
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  height:52PX;
+  justify-content: center;
+}
+.search-wrap{
+  padding-left: 20PX;
+  padding-right: 20PX;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.marker-img{
+    width: 13PX;
+    height: 17PX;
+}
+.city-text{
+  margin-left: 3PX;
+  font-size: 15PX;
+  color: #333333;
+}
+.search-bar{
+  display: flex;
+  flex:1;
+  flex-direction: row;
+  align-items: center;
+  height: 35PX;
+  //opacity: 0.08;
+  padding-left: 10PX;
+  background-color: #f5f6f9;
+  border-radius: 18PX;
+}
+.search-img{
+  width: 16PX;
+  height: 16PX;
+}
+.search-input{
+  display: flex;
+  flex:1;
+  border-width: 0;
+}
+.search-text{
+  font-size: 15PX;
+  color: rgba(25,31,37,0.40);
+  margin-left: 8PX;
+}
+.list-row-container{
+  display: flex;
+  margin-top: 10PX;
+  padding-left: 20PX;
+  background: #fff;
+  padding-right: 20PX;
+  justify-content: center;
+  height: 97PX;
+  flex-direction: column;
+}
+.list-row-view{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.hospital-img{
+  width: 244px;
+  border-radius: 5PX;
+  height:154px;
+}
+.hospital-title{
+  font-size: 32px;
+  color: #333333;
+}
+.hospital-info-view{
+  display: flex;
+  margin-left: 22px;
+  flex-direction: column;
+
+}
+.hospital-subtitle{
+  margin-top: 2px;
+  font-size:24px;
+  color: #666666;
+}
+.hospital-address{
+  margin-top: 8px;
+  font-size: 24px;
+  color: #999999;
+}
+
+.empty-view{
+  display: flex;
+  flex:1;
+  margin-top: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.empty-wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.empty-text{
+  margin-top: 20px;
+  color: #999;
+  font-size: 28px;
+}
+.empty-img{
+  width: 234px;
+  height: 188px;
+
+}

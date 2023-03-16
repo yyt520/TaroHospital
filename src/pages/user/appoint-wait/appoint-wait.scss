@@ -1,0 +1,124 @@
+
+.appoint-wait-box{
+  display: flex;
+  flex:1;
+  position: relative;
+  height: 100%;
+  background: #fff;
+  flex-direction: column;
+  border-top: 1px solid #eee;
+}
+.main{
+  padding-top: 30PX;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+.title{
+  margin-top: 24PX;
+  font-size: 20PX;
+  color: #191F25;
+}
+.reason{
+  margin-top: 8PX;
+  font-size: 14PX;
+  color: rgba(25,31,37,0.56);
+}
+.deal{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.index{
+  display: flex;
+  font-size: 28px;
+  border:1px solid #3299FF;
+  background: #fff;
+  box-sizing: border-box;
+  height: 80rpx;
+  border-radius: 10rpx;
+  width: 220rpx;
+  color: #999;
+  margin-right: 40rpx;
+}
+.index-text{
+  margin: auto;
+}
+.wait-img{
+  width: 160px;
+  height: 160px;
+  //position: absolute;
+  //z-index: 2;
+  //animation: headRotate 3s linear infinite
+}
+.wait{
+  border-radius: 5rpx;
+  display: flex;
+  height: 80rpx;
+  width: 220rpx;
+  font-size: 28px;
+  color: #fff;
+  background: #3299FF;
+}
+.wait-text{
+  margin:auto;
+}
+.modal-view{
+  height: 80PX;
+  width: 280PX;
+  padding-left: 20PX;
+  padding-right: 20PX;
+  display: flex;
+  flex:1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+.modal-wrap{
+  display: flex;
+}
+.modal-text{
+  flex: 1;
+  font-family: PingFangSC-Medium;
+  font-size: 17PX;
+  color: #191F25;
+}
+
+
+.btn{
+  border-right: 1px solid #EEE;
+}
+::-webkit-scrollbar {
+  display: none;
+  width: 0 !important;
+  height: 0 !important;
+  background: transparent !important;
+}
+
+/* 头像旋转效果  */
+@keyframes headRotate{
+  0% {transform: rotate(0deg);}
+  50% {transform: rotate(180deg);}
+  100% {transform: rotate(360deg);}
+}
+.footer{
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.btn-submit-view{
+  height: 100rpx;
+  display: flex;
+  background: #3299FF;
+}
+.btn-submit-text{
+  font-size: 32px;
+  font-family: PingFangSC-Regular;
+  color: #FFFFFF;
+  margin: auto;
+}

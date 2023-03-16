@@ -1,0 +1,243 @@
+.container-box{
+  display: flex;
+  flex-direction: column;
+  //flex:1;
+  position: relative;
+  height: 100%;
+  background-color: #f5f6f9;
+
+}
+//.main{
+//  background:#fff;
+//
+//}
+.list-row-bg{
+  padding-left: 20px;
+  padding-right: 20px;
+  //background-size: cover;
+  //background-image: url("../../../assets/home/Shadow.png");
+}
+.description{
+  margin-left: 30px;
+}
+.img{
+  width: 202px;
+  height:128px;
+  border-radius: 10px;
+}
+.hospital-title{
+  font-size: 32px;
+  color: #333333;
+}
+.sub-title{
+  font-size: 24px;
+  color: #666666;
+  margin-top: 2px;
+}
+.detail-address{
+  margin-top: 22px;
+  font-size: 24px;
+  color: #999999;
+}
+.order-time-view{
+  height: 41PX;
+  line-height: 41PX;
+}
+.order-time{
+  font-size: 32px;
+  color: #222222;
+  margin-left: 40px;
+}
+.combo-choice-view{
+   height: 45PX;
+  line-height: 45PX;
+}
+.combo-choice-text{
+  font-size: 32px;
+  color: #222222;
+  margin-left: 40px;
+}
+.combo-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100PX;
+  margin-bottom: 10PX;
+  box-sizing: border-box;
+  background: #fff;
+}
+.combo-wrap{
+  padding-left: 20PX;
+  padding-right: 20PX;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.title{
+  font-size: 16PX;
+  color: #333333;
+}
+.content{
+  margin-top: 4PX;
+  font-size: 14PX;
+  color: #999999;
+}
+.price{
+  margin-top: 7PX;
+  font-size: 14PX;
+  color: #3299FF;
+}
+.choice-view{
+  display: flex;
+  width: 23PX;
+  border-radius: 11.5PX;
+  height: 23PX;
+  background: #F7F9FA;
+  border: 1px solid #D3D3D3;
+}
+.choice-wrap{
+  margin: auto;
+  background: transparent;
+  height:13PX;
+  width: 13PX;
+  border-radius: 6.5PX;
+}
+.section {
+  position: relative;
+  padding:10PX 20PX 10PX 40px;
+  display: flex;
+  background: #fff;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.scrollView{
+  white-space: nowrap;
+}
+.wrap{
+  display: inline-block;
+  &_content{
+    margin-right: 10PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 108px;
+    height: 128px;
+    background: transparent;
+    border-radius: 10px;
+    &_week{
+      font-size: 28px;
+      color: #999;
+    }
+    &_date{
+      font-size: 28px;
+      color: #999;
+    }
+    &_status{
+      color: #999;
+      font-size: 28px;
+    }
+  }
+}
+
+//新样式
+.list-row-container{
+  display: flex;
+  margin-top: 20px;
+  padding-left: 40px;
+  background: #fff;
+  padding-right: 40px;
+  justify-content: center;
+  height: 194px;
+  flex-direction: column;
+}
+.list-row-view{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.hospital-img{
+  width: 244px;
+  height:154px;
+  border-radius: 5PX;
+}
+.hospital-title{
+  font-size: 32px;
+  color: #333333;
+}
+.hospital-info-view{
+  display: flex;
+  margin-left: 22px;
+  flex-direction: column;
+
+}
+.hospital-subtitle{
+  margin-top: 2px;
+  font-size:24px;
+  color: #666666;
+}
+.hospital-address{
+  margin-top: 8px;
+  font-size: 24px;
+  color: #999999;
+}
+
+.list-row{
+  margin-top: 17PX;
+  padding-left: 20PX;
+  padding-right: 20PX;
+  border-bottom: 0.5PX solid #EEE;
+  display: flex;
+  height: 50PX;
+  background: #FFFFFF;
+  flex-direction: column;
+  justify-content: center;
+}
+.list-row-wrap{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.clock-img{
+  width: 18PX;
+  height:18PX;
+}
+.time-text{
+  font-size: 14PX;
+  color: #222222;
+  margin-left: 7PX;
+}
+.time-range-text{
+  font-size: 14PX;
+  color: #3F3F3F;
+  margin-left: 10PX;
+}
+.sy-text{
+  font-size: 14PX;
+  color: #999999;
+}
+.surplus--text{
+  font-size: 16PX;
+  color: #3299FF;
+}
+.right-away-order-view{
+  display: flex;
+  height: 30PX;
+  width: 80PX;
+  background: #3299FF;
+  border-radius: 15PX;
+}
+.right-away-order-text{
+  font-size: 12PX;
+  margin: auto;
+  color: #FFFFFF;
+}
+::-webkit-scrollbar {
+  display: none;
+  width: 0 !important;
+  height: 0 !important;
+  background: transparent !important;
+}

@@ -1,0 +1,119 @@
+.container{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  &_header{
+    padding-top: 35px;
+    padding-bottom: 30px;
+    height:50%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &_orderSuccess{
+      font-size: 32px;
+      font-family: PingFangSC-Regular;
+      color: #333;
+      margin-top: 20px;
+    }
+    &_cancelOrder{
+      font-size: 28px;
+      font-family: PingFangSC-Regular;
+      margin-top: 10px;
+      color:#3399FF;
+    }
+  }
+  &_footer{
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+    background-color: #fff;
+    flex:1;
+    &_item{
+      display: flex;
+      //flex-direction: column;
+      height: 60px;
+      align-items: center;
+      //justify-content: center;
+      &_label{
+        font-size: 28px;
+        font-family: PingFangSC-Regular;
+        color: #333;
+        margin-right: 20px;
+      }
+      &_value{
+        font-size: 28px;
+        font-family: PingFangSC-Regular;
+        color: #333;
+      }
+    }
+  }
+}
+.tsm-view{
+  margin-left: 20PX;
+  margin-top: 13PX;
+  margin-bottom: 3PX;
+  margin-right: 20PX;
+  background: #F7F8F9;
+  border-radius: 10PX;
+}
+.qrcode-view{
+  padding-top: 18PX;
+  padding-bottom: 16PX;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.order-status{
+  margin-top: 20PX;
+  font-size: 16PX;
+  color: #333333;
+}
+.desc{
+  margin-top: 3PX;
+  font-size: 13PX;
+  color: #999999;
+}
+.qrcode{
+  width: 122PX;
+  height: 122PX;
+  margin-top: 10PX;
+}
+
+.info-confirm-wrap{
+  margin-left: 20PX;
+  margin-right: 20PX;
+  display: flex;
+  margin-top: 20PX;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.label{
+  font-size: 14PX;
+  color: #333333;
+}
+.value{
+  font-size: 14PX;
+  color: #666666;
+}
+.forward{
+  margin-left: 5PX;
+  width: 7PX;
+  height:13PX
+}
+.list-row-wrap{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.barcode-text{
+  margin-top: 10PX;
+}
+.qrcode-str{
+  font-size: 32px;
+  color: #333;
+}

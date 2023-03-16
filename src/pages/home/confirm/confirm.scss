@@ -1,0 +1,132 @@
+
+.container{
+  display: flex;
+  flex:1;
+  height: 100%;
+  flex-direction: column;
+  background: #F5F6F9;
+}
+.order-info-view{
+  height: 80px;
+  line-height: 80px;
+}
+.order-info-text{
+  margin-left: 20PX;
+  font-size: 14PX;
+  color: #333333;
+}
+
+.info-confirm-view{
+  padding:10PX 20PX 10PX 20PX;
+  background: #fff;
+}
+.info-confirm-wrap{
+  display: flex;
+  margin-top: 20PX;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.label{
+  font-size: 14PX;
+  color: #333333;
+}
+.value{
+  font-size: 14PX;
+  color: #666666;
+}
+.tip{
+  font-size: 28px;
+  font-family: PingFangSC-Regular;
+  color: #3299FF;
+  margin-left: 40px;
+}
+.tip-container{
+  margin-top: 20PX;
+  margin-bottom:5PX;
+
+}
+.tip-view{
+  display: flex;
+  flex:1;
+  padding-left: 40px;
+  padding-right: 40px;
+  //padding-right: 40px;
+}
+.tip-text{
+  text-align: justify;
+  //text-align-last:justify;
+  text-justify: inter-ideograph;
+  font-size: 24px;
+  color: #999999;
+  line-height: 40px;
+}
+
+.enter-pay{
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  justify-content: flex-end;
+}
+
+.btn-wrap-view{
+  display: flex;
+  flex-direction: row;
+  height: 96rpx;
+}
+.price-view{
+    width: 246PX;
+    line-height: 96rpx;
+    height: 96rpx;
+    background: #F8B15E;
+}
+.RMB{
+  margin-left: 20PX;
+  font-size:16PX;
+  color: #FFFFFF;
+}
+.price{
+  text-decoration: line-through;
+  font-size: 28PX;
+  color: #fff;
+}
+._price{
+  font-size: 28PX;
+  color: #fff;
+}
+.enter-view{
+  flex: 1;
+  display: flex;
+  background: #3299FF;
+}
+.enter-pay{
+  margin: auto;
+  font-size: 18PX;
+  color: #FFFFFF;
+}
+.modal-view{
+  height: 80PX;
+  width: 280PX;
+  padding-left: 20PX;
+  padding-right: 20PX;
+  display: flex;
+  flex:1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+.modal-wrap{
+  display: flex;
+}
+.modal-text{
+  flex: 1;
+  font-family: PingFangSC-Medium;
+  font-size: 17PX;
+  color: #191F25;
+}

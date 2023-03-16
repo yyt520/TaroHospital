@@ -1,0 +1,107 @@
+/**
+ * 统一多端基础样式
+ * 比较理想的是 View 标签统一为 display: flex; flex-direction: column
+ * 但是 H5 上内置组件样式可能会错乱，因此暂时不这样处理，有用到 flex 的地方都显式声明主轴方向即可
+ */
+View{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+view,
+text,
+scroll-view {
+  box-sizing: border-box;
+}
+
+button {
+  &:after {
+    display: none;
+  }
+}
+
+/* h5 */
+/*postcss-pxtransform rn eject enable*/
+div {
+  box-sizing: border-box;
+}
+
+button {
+  outline: none;
+}
+
+.taro-text {
+  box-sizing: border-box;
+}
+
+.taro-tabbar__panel,
+.taro_router {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.taro_page {
+  flex: 1;
+}
+.clearfix:after{
+  content:'';
+  display: block;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+  height: 0;
+}
+.clearfix{
+  zoom: 1;
+}
+page{
+  height: 100%
+}
+.footer{
+  position: fixed;
+  z-index: 9999;
+  bottom: 0;
+  width: 100%;
+}
+.btn-submit-view{
+  height: 100px;
+  display: flex;
+  background: #3991FA;
+}
+.btn-submit-two{
+  height: 100px;
+  display: flex;
+  .left{
+    width: 35%;
+    display: flex;
+    border:1PX solid #3991FA;
+    .text{
+      font-size: 32px;
+      font-family: PingFangSC-Regular;
+      color: #3991FA;
+      margin: auto;
+    }
+  }
+  .right{
+    background: #3991FA;
+    width: 65%;
+    display: flex;
+    .text{
+      font-size: 32px;
+      font-family: PingFangSC-Regular;
+      color: #FFFFFF;
+      margin: auto;
+    }
+  }
+}
+.btn-submit-disabled{
+  height: 100px;
+  display: flex;
+  background:rgba(153,153,153,0.6);
+}
+.btn-submit-text{
+  font-size: 32px;
+  font-family: PingFangSC-Regular;
+  color: #FFFFFF;
+  margin: auto;
+}

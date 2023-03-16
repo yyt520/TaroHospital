@@ -1,0 +1,88 @@
+.container {
+  height: 100%;
+  background-color: #f5f6f9;
+  position: relative;
+  &:before {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    content: '';
+    border-top: 1px solid #EEEEEE;
+    -webkit-transform: scale(0.5);
+    transform: scaleY(0.5);
+  }
+}
+.user-header{
+  height: 90PX;
+  display: flex;
+  margin-bottom: 10PX;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  padding-left: 20PX;
+  &_wrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &_avatar{
+      width: 50PX;
+      height: 50PX;
+      border-radius: 50PX;
+      overflow: hidden;
+    }
+    &_username{
+      font-size: 16PX;
+      font-family: PingFangSC-Regular;
+      color: #333;
+      margin-left: 14PX;
+    }
+  }
+}
+.section{
+  height:96px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  position: relative;
+  &:after {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    content: '';
+    border-top: 1px solid #EEEEEE;
+    -webkit-transform: scale(0.5);
+    transform: scaleY(0.5);
+  }
+   &_wrap{
+     display: flex;
+     align-items: center;
+     flex-direction: row;
+     justify-content: space-between;
+     &_left{
+       display: flex;
+       align-items: center;
+        &_list{
+          width:48px ;
+          height:48px ;
+        }
+       &_title{
+         margin-left: 20px;
+         font-size: 28px;
+         font-family: PingFangSC-Regular;
+         color: #333333;
+       }
+     }
+     &_right{
+       width:14px ;
+       height:26.4px ;
+     }
+   }
+
+}
